@@ -1,22 +1,17 @@
 CSS
 
-.tile,
-.member-spotlight .HtmlContent {
+.highlight-tile {
     background: #fff;
     border-radius: 4px;
     box-shadow: 0 3px 3px 0 rgba(0,0,0,0.04), 0 0 20px 0 rgba(0,0,0,0.06);
 }
-.tile h2 {
-    margin-top: 0;
-}
-
-.interior .tile {
+.highlight-tile {
     padding: 20px 30px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
 }
-.interior .tile h2,
-.interior .tile h3 {
+.highlight-tile h2,
+.highlight-tile h3 {
     margin-top: 4px;
 }
 
@@ -24,4 +19,4 @@ HTML
 
 1. Create a new HTML Content Item
 2. Within the new content item add in whatever HTML items you would like
-3. Within the CSS Wrapper Class Name Field add in 'tile'
+3. Within the CSS Wrapper Class Name Field add in 'highlight-tile'
