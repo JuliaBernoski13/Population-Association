@@ -1,0 +1,51 @@
+.filtered-library .search-box .SearchInputs,
+#NAV .SearchInputs {
+    border-radius: 4px;
+    background: #fff;
+}
+#NAV .SearchInputs {
+    border: 1px solid #E6E7EA;
+}
+.filtered-library .search-box .form-control,
+.filtered-library .search-box button[id*="SearchButton"],
+#NAV .SearchInputs .form-control,
+#NAV .SearchInputs button[id*="SearchButton"] {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    height: 40px;
+}
+.filtered-library .search-box .form-control,
+#NAV .SearchInputs .form-control {
+    color: #626262;
+    font-family: interstate, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 20px;
+}
+.filtered-library .search-box .form-control::placeholder,
+#NAV .SearchInputs .form-control::placeholder {
+    font-style: normal;
+}
+.filtered-library .search-box button[id*="SearchButton"],
+#NAV .SearchInputs button[id*="SearchButton"] {
+    padding: 0;
+    width: 40px;
+    text-align: center;
+}
+.filtered-library .search-box .glyphicon-search,
+#NAV .SearchInputs .glyphicon-search {
+    width: auto;
+    top: 0;
+    vertical-align: unset !important;
+    line-height: 40px;
+}
+.filtered-library .search-box .glyphicon-search::before,
+#NAV .SearchInputs .glyphicon-search::before {
+    font-family: PAA;
+    content: '\f016';
+    color: #094F8D;
+    font-size: 24px;
+}
+
